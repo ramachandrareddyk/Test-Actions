@@ -32,7 +32,7 @@ jobs:
     - name: Verify Java Version
       run: java -version
 
-    - name: Build with maven
+    
       run: mvn clean test -DmlFile=Runner.xml
 
    
